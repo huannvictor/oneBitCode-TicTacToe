@@ -1,4 +1,5 @@
-Tic-tac-toe developed in JavaScript classes in the OneBitCode full-stack developer course. 
+# Tic-tac-toe
+*Developed in JavaScript classes in the OneBitCode full-stack developer course.* 
 
 This exercise explored Vanilla JavaScript methods to select and manipulate certain groups of HTML elements to simulate a tic-tac-toe board, allowing the players to combine a set of three icons (❌⭕) to result in one player's victory or a tie. 
 
