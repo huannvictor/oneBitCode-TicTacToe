@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+
+<head>
+  <meta charset='UTF-8' />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/phosphor-icons"></script>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+  <link rel='stylesheet' href='style.css' />
+  <script defer src='index.js'></script>
+  <title>Tic-Tac-Toe</title>
+</head>
+
+<body>
+  <main>
+    <header>
+      <div id="playersNames">
+        <div class="player" id="player-1-input">
+          <i class="ph-x-bold"></i>
+          <input type="text" name="player-1" id="player-1" placeholder="digite o nome do jogador">
+        </div>
+        <div class="player" id="player-2-input">
+          <i class="ph-circle-bold"></i>
+          <input type="text" name="player-2" id="player-2" placeholder="digite o nome do jogador">
+        </div>
+      </div>
+
+      <button type="button" id="gameButton">
+        start
+      </button>
+    </header>
+
+    <div id="board">
+      <div data-square="0.0" class="square squareLight"></div>
+      <div data-square="0.1" class="square squareDark"></div>
+      <div data-square="0.2" class="square squareLight"></div>
+      <div data-square="1.0" class="square squareDark"></div>
+      <div data-square="1.1" class="square squareLight"></div>
+      <div data-square="1.2" class="square squareDark"></div>
+      <div data-square="2.0" class="square squareLight"></div>
+      <div data-square="2.1" class="square squareDark"></div>
+      <div data-square="2.2" class="square squareLight"></div>
+    </div>
+  </main>
+</body>
+
+</html>
