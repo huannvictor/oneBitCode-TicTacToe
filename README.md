@@ -5,7 +5,7 @@ This exercise explored Vanilla JavaScript methods to select and manipulate certa
 
 To see the result [click here](https://huannvictor.github.io/oneBitCode-TicTacToe/) to go to the deployed page or feel free to clone this repo.
 
-# The logic designed to accomplish this was:
+# The logic designed to accomplish this:
 
 # Techs
 - HTML5
